@@ -1,0 +1,68 @@
+.box{
+    height: 200px;
+    width: 200px;
+    /* background-image: linear-gradient(to left,red,green); */
+    background-image: radial-gradient(red,green);
+}
+.box1{
+   
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color:green; 
+}
+.box2{
+   
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color:indigo; 
+}
+
+.box3{
+   
+    height: 200px;
+    width: 200px;
+    clear: right;
+    background-color:grey; 
+}
+.demo1{
+    margin: 10px;
+    padding: 10px;
+    border: 10px groove green;
+    height: 200px;
+   box-sizing: border-box;
+    width: 200px;
+    background-color: aqua;
+}
+.demo2{
+    margin: 10px;
+    padding: 10px;
+    box-sizing:content-box;
+    border: 10px groove green;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+.boxx2{
+
+    margin: 10px;
+    padding: 10px;
+    border: 2px groove green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+    background-color:rebeccapurple;
+}
+.boxx3{
+   
+    margin: 10px;
+    padding: 10px;
+    border: 2px groove green;
+    height: 200px;
+    width: 200px;
+    background-color: crimson; 
+}

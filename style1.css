@@ -1,0 +1,70 @@
+
+.card1{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(red,green);
+    float: left;
+    
+}
+.card2{
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(red,green);
+    float: right;
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}
+.box1{
+    background-color: saddlebrown;
+    float: left;
+}
+.box2{
+  
+    background-color: pink;
+    float: right;
+    clear: left;  
+}
+.box3{
+   
+    background-color: blue;
+    float: left;
+    clear: right; 
+}
+.box4{
+    
+    background-color: grey;
+    float: right;
+    clear: left;
+}
+.box5{
+   
+    background-color: yellow;
+    float: left;
+    clear: right; 
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    background-color: seagreen;
+    position: absolute;
+    top:500px;
+    
+    left: 30%;
+
+}
+.p2{
+    width: 200px;
+    z-index: -1;
+    height: 200px;
+    position: absolute;
+    top:600px;
+    left: 40%;
+    border: 3px solid black;
+    background-color: slateblue;
+}
+
